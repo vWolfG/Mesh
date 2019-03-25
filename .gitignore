@@ -1,0 +1,7 @@
+*.txt
+*.pyc
+!conf.txt
+!sending_config.txt
+ex.py
+.DS_Store
+.project

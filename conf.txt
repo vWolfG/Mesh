@@ -1,0 +1,9 @@
+Amount of nodes: 4
+node0: 00-11-22-33-44-55
+node1: 17-78-89-AB-CD-EF
+node2: 20-11-22-33-44-55
+node3: 30-14-52-53-44-35
+Connections:
+0-1
+1-3
+2-3
