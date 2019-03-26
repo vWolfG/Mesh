@@ -1,5 +1,5 @@
 import network_core as network
-import graph
+
    
 
 envir = network.Environment('conf.txt')
@@ -7,8 +7,10 @@ nodes = []
 for i in range(1,int(envir.node_inform[0])+1):
     nodes.append(network.Node(envir.node_inform[i]))  # nodes creating 
     # print(nodes[i-1])
-#graph.draw_graph(8)
 
+
+
+# example "0->1 hello!", send from node 0 to node 1 the message "hello!"
 conf_file = open("sending_config.txt")
 for line in conf_file:
     letters = line.split()
